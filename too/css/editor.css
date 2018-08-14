@@ -1,0 +1,116 @@
+.info {
+    /*
+    padding: 1em;
+    border-radius: 5px;
+    background-color: rgba(64, 64, 64, 0.3)
+    */
+    background-color: #ccc;
+    border: 2px outset #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #111;
+}
+
+.app {
+    display: flex;
+    flex-direction: row;
+}
+
+.colors,
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.col {
+    display: flex;
+    flex-direction: row;
+}
+
+.row span {
+    display: inline-block;
+    flex: 1;
+}
+
+.empty {
+    flex: 1;
+}
+
+.palette {
+    flex: 1;
+    background-color: #ccc;
+    border: 2px outset #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #111;
+}
+
+.canvas {
+    flex: 2;
+    background-color: #ccc;
+    border: 2px outset #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #111;
+}
+
+.export {
+    flex: 2;
+    background-color: #ccc;
+    border: 2px outset #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #111;
+}
+
+.panel-body {
+    border-top: 1px solid #fff;
+}
+
+.info .panel-body,
+.palette .panel-body {
+    padding: 1em;
+}
+
+.canvas .panel-body,
+.export .panel-body {
+    text-align: center;
+    padding: 1em;
+}
+
+#r,
+#e {
+    float: right;
+}
+
+#exp {
+    min-width: 30ex;
+    max-width: 80ex;
+    height: 12em;
+}
+
+body {
+    background-color: #aaa;
+}
+
+h1 {
+    color: #fff;
+    background-color: #111;
+    font-size: 24px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0.4em;
+    border-radius: 5px;
+}
+
+h2 {
+    margin: 0px 0px 0em 0px;
+    color: #fff;
+    background-color: #00f;
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 0.5em;
+    border-radius: 4px 4px 0px 0px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}

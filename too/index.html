@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Based on: https://github.com/xem/miniPixelArt -->
+    <link rel="stylesheet" href="css/editor.css" />
+  </head>
+
+  <body>
+    <h1>MiniPixelArt Too</h1>
+
+    <div class="info">
+      <h2>About MiniPixelArt Too<span style="color: #000;">(ls)</span></span></h2>
+      <div class="panel-body">
+        Tools for <a href="../index.html">MiniPixelArt</a>:
+        <ul>
+          <li>[&nbsp;&nbsp;] Palette Database</li>
+          <li>[&nbsp;&nbsp;] Sprite sheet editor</li>
+          <li>[&nbsp;&nbsp;] Animation editor</li>
+          <li>[&nbsp;&nbsp;] Scene editor</li>
+        </ul>
+      </div>
+    </div>
+
+    <br/>
+    <div class="app">
+      <div class="palette">
+        <h2>Palette</h2>
+
+        <div class="panel-body">
+          <div class="colors">
+            <span><input type="radio" name="p" id="p1" checked><input type="color" id="c1"></span>
+            <span><input type="radio" name="p" id="p2"><input type="color" id="c2"></span>
+            <span><input type="radio" name="p" id="p3"><input type="color" id="c3"></span>
+            <span><input type="radio" name="p" id="p4"><input type="color" id="c4"></span>
+            <span><input type="radio" name="p" id="p5"><input type="color" id="c5"></span>
+            <span><input type="radio" name="p" id="p6"><input type="color" id="c6"></span>
+            <span><input type="radio" name="p" id="p7"><input type="color" id="c7"></span>
+            <span><input type="radio" name="p" id="p8">transparent</span>
+          </div>
+        </div>
+      </div>
+        
+      <div class="col"><!-- row -->
+        <div class="canvas">
+          <h2>Canvas</h2>
+          <div class="panel-body">
+            <span style="float: left;">
+            <label for="s" canvas>Size:</label> <input id="s" value="8" size="2"></span>
+            <button id="r">Clear</button><br/><br/>
+            <canvas id="a" width="80" height="80" style="border:1px solid"></canvas>
+          </div>
+        </div>
+        
+        <div class="export">
+          <h2>Export</h2>
+          <div class="panel-body">
+            <button id="e">Export</button><br/><br/>
+            <textarea id="exp" rows="20" cols="40" readonly></textarea>
+          </div>
+        </div>
+
+      </div><!-- /row -->
+    </div>
+
+    <script src="js/editor.js"></script>
+  </body>
+</html>

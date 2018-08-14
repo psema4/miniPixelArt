@@ -1,43 +1,3 @@
-﻿<h1>MiniPixelArt</h1>
-Palette
-<br>
-<br>
-<input type=radio name=p id=p1 checked><input type=color id=c1> 
-<input type=radio name=p id=p2><input type=color id=c2> 
-<input type=radio name=p id=p3><input type=color id=c3> 
-<input type=radio name=p id=p4><input type=color id=c4>
-<br>
-<br>
-<input type=radio name=p id=p5><input type=color id=c5> 
-<input type=radio name=p id=p6><input type=color id=c6> 
-<input type=radio name=p id=p7><input type=color id=c7> 
-<input type=radio name=p id=p8>transparent
-<br>
-<br>
-Canvas size
-<br>
-<br>
-<input id=s value=8 size=2>
-<br>
-<br>
-<br>
-<canvas id=a width=80 height=80 style="border:1px solid"></canvas>
-<br>
-<br>
-<br>
-<button id=r>clear</button>
-<br>
-<br>
-<br>
-<button id=e>export</button>
-<br>
-<br>
-<textarea id=exp rows=20 cols=80></textarea>
-<br>
-<br>
-<a href="too/index.html" target="_blank">MiniPixelArt Too</a>
-
-<script>
 c = a.getContext("2d");
 
 pixels = [];
@@ -194,5 +154,3 @@ for(j=0;j<S;j++){
 <\/script>`
 
 }
-
-</script>
